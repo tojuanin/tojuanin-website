@@ -2,251 +2,120 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <title>Personal Online CV</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <title>Juan Polvo Morales</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <section class="menu">
-    <a class="menu-item" id="about"><b>🧑</b> acerca</a>
-    <a class="menu-item" id="skills"><b>🤓</b> habilidades</a>
-    <a class="menu-item" id="education"><b>🎓</b> educación</a>
-    <a class="menu-item" id="experience"><b>👨‍💻</b> experiencia</a>
-  </section>
-  <section class="profile">
-    <div class="img-container"></div>
-    <div class="profile-body">
-      <p class="name">Juan Polvo Morales</p>
-      <p class="role">Web Developer Jr</p>
-      <div class="socials">
-        <a href=""><i class="fab fa-youtube"></i></a>
-        <a href=""><i class="fab fa-facebook-f"></i></a>
-        <a href=""><i class="fab fa-linkedin-in"></i></a>
-        <a href=""><i class="fab fa-github"></i></a>
-        <a href=""><i class="fab fa-twitter"></i></a>
+  <main>
+    <div class="big-wrapper light">
+      <img src="./img/shape.png" alt="" class="shape" />
+
+      <header>
+        <div class="container">
+          <div class="logo">
+            <img src="./img/logo.svg" alt="Logo" />
+            <h3>juanitopolvo</h3>
+          </div>
+
+          <div class="links">
+            <ul>
+              <li><a href="#">Proximamente Cursos</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="cv2.html">CV</a></li>
+            </ul>
+          </div>
+
+          <div class="overlay"></div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </header>
+
+      <div class="showcase-area">
+        <div class="container">
+          <div class="left">
+            <div class="big-title">
+              <h1>Soy Juan Polvo Morales,</h1>
+              <h1>Tu amigo digital.</h1>
+            </div>
+            <p class="text">
+              Soy desarrollador web, entusiasta de las tecnologias de la información y
+              creador de contenidos tecnológicos.
+            </p>
+            <div class="cta">
+              <a href="cv2.html" class="btn">CONTÁCTAME</a>
+            </div>
+            <div class="socials">
+              <a href=""><i class="fab fa-youtube"></i></a>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+              <a href=""><i class="fab fa-github"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+
+          <div class="right">
+            <img src="./img/person.png" alt="Person Image" class="person" />
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase-area showcase-service dark">
+        <div class="container">
+          <div class="left">
+            <div class="big-title">
+              <h1>Servicios</h1>
+            </div>
+            <p class="text">
+              Me gusta la colaboración entre <b>profesional</b> y <b>cliente</b> prefiero la frase: "Trabajo contigo".
+              En vez de: <b>Trabajo para ti.</b>
+            </p>
+            <div class="big-title">
+              <h3>nuevo proyecto</h3>
+            </div>
+            <div class="cta">
+              <a href="cv2.html" class="btn">polvojuan6@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="big-title">
+              <h1>¿Qué te ofrezco?</h1>
+            </div>
+            <ul>
+              <li><i class="fas fa-check"></i>Marketing digital para tú marca.</li>
+              <li><i class="fas fa-check"></i>Diseño y desarrollo de sitios y aplicaciones web.</li>
+              <li><i class="fas fa-check"></i>Clases en Educación Media Superior y Básica.</li>
+              <li><i class="fas fa-check"></i>Charlas y talleres sobre tecnología.</li>
+              <li><i class="fas fa-check"></i>Mentoría en marca personal.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-area">
+        <div class="container">
+          <button class="toggle-btn">
+            <i class="far fa-moon"></i>
+            <i class="far fa-sun"></i>
+          </button>
+        </div>
       </div>
     </div>
-    <div class="actions">
-      <button>DESCARGA CV</button>
-      <button>CONTÁCTAME</button>
-    </div>
-  </section>
+  </main>
 
-  <section class="main">
+  <!-- JavaScript Files -->
 
-    <section class="asset split" id="about-section">
-      <h1 class="title section-item">
-        <span>Acerca</span> de mi
-      </h1>
-      <div class="asset-body">
-        <div class="section-item">
-          <p>Desde 2012 tengo experiencia en el área de desarrollo web y la educación</p>
-          <br />
-          <p>También cuento con experiencia en el área de Social Media, Marketing de Contenidos y SEO.
-          </p>
-        </div>
-        <div class="section-item">
-          <div class="item">
-            <h2>👶🏻</h2>
-            <p class="value"> Nací en México, Junio 30, 1991</p>
-          </div>
-          <div class="item">
-            <h2>🚩</h2>
-            <p class="value"> Vivo en Tlaxcala, Chiautempan</p>
-          </div>
-          <div class="item">
-            <h2>📧</h2>
-            <p class="value">polvojuan6@gmail.com</p>
-          </div>
-          <div class="item">
-            <h2>📱</h2>
-            <p class="value">246 214 54 40</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="asset">
-      <h1 class="title section-item">
-        <span>Trabajo</span> contigo
-      </h1>
-      <div class="asset-body">
-        <div class="domains section-item">
-          <div class="domain-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path
-                d="M20,3H4C2.897,3,2,3.897,2,5v14c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V5C22,3.897,21.103,3,20,3z M4,19V7h16 l0.002,12H4z" />
-              <path
-                d="M9.293 9.293L5.586 13 9.293 16.707 10.707 15.293 8.414 13 10.707 10.707zM14.707 9.293L13.293 10.707 15.586 13 13.293 15.293 14.707 16.707 18.414 13z" />
-            </svg>
-            <h3><i>Programación Web</i></h3>
-            <p>
-              Desarrollo sitios y aplicaciones para plataformas Web. Te ayudo a construir tu proyecto de principio a
-              fin: Frontend, Backend y Base de Datos.
-            </p>
-          </div>
-          <div class="domain-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path
-                d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z" />
-            </svg>
-            <h3><i>Diseño Web</i></h3>
-            <p>
-              Prototipo y maqueto tus diseños estáticos y los convierto en increíbles sitios y aplicaciones web
-              responsivas, óptimas y
-              accesibles.
-            </p>
-          </div>
-          <div class="domain-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path
-                d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z" />
-              <path
-                d="M11.412,8.586C11.791,8.966,12,9.468,12,10h2c0-1.065-0.416-2.069-1.174-2.828c-1.514-1.512-4.139-1.512-5.652,0 l1.412,1.416C9.346,7.83,10.656,7.832,11.412,8.586z" />
-            </svg>
-            <h3><i>SEO</i></h3>
-            <p>
-              Search Engine Optimization, optimizo tus sitios y aplicaciones web para que mejoren su posición en los
-              buscadores orgánicamente.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="asset split" id="skills-section">
-      <h1 class="title section-item">
-        <span>Mis</span> habilidades
-      </h1>
-      <div class="asset-body">
-        <div class="section-item">
-          <h3><i class="fas fa-code"></i>TECNOLOGÍAS</h3>
-          <ul>
-            <li><i class="fas fa-check"></i>HTML</li>
-            <li><i class="fas fa-check"></i>CSS</li>
-            <li><i class="fas fa-check"></i>Javascript</li>
-            <li><i class="fas fa-check"></i>React Js</li>
-            <li><i class="fas fa-check"></i>PHP</li>
-          </ul>
-        </div>
-
-        <div class="section-item">
-          <h3><i class="fas fa-tools"></i>HERRAMIENTAS</h3>
-          <ul>
-            <li class="ide"><i class="fas fa-check"></i>VS Code</li>
-            <li class="ide"><i class="fas fa-check"></i>Figma</li>
-            <li class="ide"><i class="fas fa-check"></i>Corel Draw</li>
-            <li class="ui"><i class="fas fa-check"></i>Photoshop</li>
-            <li class="ui"><i class="fas fa-check"></i>Wordpress</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="asset split" id="education-section">
-      <h1 class="title section-item">
-        <span>E</span>ducación
-      </h1>
-      <div class="asset-body">
-
-        <div class="section-item">
-          <div class="section-sub-item">
-            <p class="time current">2021</p>
-            <p class="item-name">Diplomado en línea </p>
-            <div class="additional-info">
-              <h5>UPAEP Online</h5>
-            </div>
-            <p class="description">"LAS TIC'S Y LAS HERRAMIENTAS DIGITALES APLICADAS A LA PRÁCTICA DOCENTE"
-              -Con: Diploma
-
-            </p>
-          </div>
-        </div>
-
-        <div class="section-item">
-          <div class="section-sub-item">
-            <p class="time current">2009 - 2011</p>
-            <p class="item-name">Educación Superior</p>
-            <div class="additional-info">
-              <h5>Universidad Tecnológica de Tlaxcala</h5>
-            </div>
-            <p class="description">T.S.U. en Tecnologías de la Información y Comunicación Área Multimedia y Comercio
-              Electrónico.
-              -con: Título y Cedula Profesional
-
-            </p>
-          </div>
-        </div>
-
-        <div class="section-item">
-          <div class="section-sub-item">
-            <p class="time current">2011-2016</p>
-            <p class="item-name">Educación Media Superior</p>
-            <div class="additional-info">
-              <h5>Centro de Estudios Tecnológicos Industrial y de Servicios 132</h5>
-            </div>
-            <p class="description">Especialidad de Técnico en Informática en el Área: Fisicomatemática
-              -Carta de Pasante
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="asset split" id="experience-section">
-      <h1 class="title section-item">
-        <span>E</span>xperiencia
-      </h1>
-      <div class="asset-body">
-
-        <div class="section-item">
-          <div class="section-sub-item">
-            <p class="time current">2017-2021 (Presente)</p>
-            <p class="item-name">Técnico especializado</p>
-            <div class="additional-info">
-              <h5>CECyTE-EMSaD Tlaxcala</h5>
-            </div>
-            <p class="description">Implementación de herramientas tecnológicas para el seguimiento de los procesos.
-            </p>
-          </div>
-        </div>
-
-        <div class="section-item">
-          <div class="section-sub-item">
-            <p class="time current">2015-2016</p>
-            <p class="item-name">Freelancer</p>
-            <div class="additional-info">
-              <h5>Centro Cultural Lafayette A.C.</h5>
-            </div>
-            <p class="description">Desarrollo de microservicios web (pagina web y sistema de control escolar)
-            </p>
-          </div>
-        </div>
-
-        <div class="section-item">
-          <div class="section-sub-item">
-            <p class="time current">2011-2016</p>
-            <p class="item-name">Analista</p>
-            <div class="additional-info">
-              <h5>Universidad Tecnológica de Tlaxcala</h5>
-            </div>
-            <p class="description">Desarrollo de Intranet para el Sistema de Calidad
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-  </section>
-
-  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <script src="./app.js"></script>
 </body>
 
 </html>
